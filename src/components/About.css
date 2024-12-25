@@ -77,7 +77,6 @@
 
 /* Profile Image Card */
 .about-image-wrapper {
-  
   position: relative; /* Ensures that the image is positioned correctly */
   z-index: 5; /* Ensure the image is above the video and overlay */
   transform: translateX(-50px);
@@ -86,14 +85,12 @@
 }
 
 .about-image-wrapper.visible {
- 
   z-index: 10; /* Ensure image is above other elements */
   transform: translateX(0);
   opacity: 1;
 }
 
 .about-image {
-  
   margin-top: 8vh;
   width: 100%;
   max-width: 250px;
@@ -150,19 +147,59 @@
 
 /* Responsive Styling */
 @media (max-width: 767px) {
-  .about-section .row {
-    text-align: center;
+  /* Adjust the section margin and card size */
+  .about-section {
+    margin: 10vh 5vw;
   }
 
+  /* Make image and card smaller on mobile screens */
   .about-image {
-    margin-bottom: 20px;
+    max-width: 180px;
+    margin-top: 5vh;
   }
 
   .about-card {
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 0.9rem; /* Reduce font size */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
 
-  .col-md-5, .col-md-7 {
+  .text-card {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  /* Adjust the layout for smaller screens */
+  .about-image-wrapper,
+  .text-card,
+  .about-card {
+    width: 100%; /* Ensure cards and image take full width */
+    text-align: center;
+  }
+
+  .about-card,
+  .text-card {
     margin-bottom: 20px;
+  }
+
+  .about-section .row {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* For very small screens (Mobile Portrait) */
+@media (max-width: 480px) {
+  .card-title {
+    font-size: 1.5rem; /* Smaller title */
+  }
+
+  .card-text {
+    font-size: 1rem; /* Smaller text */
+  }
+
+  .about-image {
+    max-width: 150px;
   }
 }
