@@ -20,7 +20,7 @@ const Experience = () => {
   }, []);
 
   return (
-    <section id="experience" className="experience-section">
+    <section id="experience" className="bg-transparent experience-section">
       <div className={`containeri container ${isVisible ? "fade-in" : ""}`}>
         <h2 className="section-title">Professional Experience</h2>
         <ul className="experience-list">
