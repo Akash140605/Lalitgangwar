@@ -58,7 +58,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
   color: #000000;
-  padding-left: 30px;
+  padding-left: 3vh;
   line-height: 1.5;
 }
 
@@ -119,7 +119,75 @@
 
 /* Responsive Styling */
 @media (max-width: 767px) {
-  .education-card, .image-card {
+  /* Adjust section padding */
+  .education-section {
+    padding: 40px 10px;
+  }
+
+  /* Adjust title font size */
+  .section-title {
+    font-size: 2.5rem; /* Smaller title for mobile */
     margin-bottom: 20px;
+  }
+
+  /* Adjust card padding and margins */
+  .education-card {
+    padding: 5vh;
+    margin-bottom: 15px;
+    font-size: 1rem; /* Slightly smaller text */
+  }
+
+  .card-title {
+    font-size: 1.5rem; /* Reduce card title size */
+    margin-bottom: 10px;
+  }
+
+  /* Adjust education details text size */
+  .education-details h4 {
+    font-size: 1.6rem; /* Slightly smaller heading */
+  }
+
+  .education-details p, .education-details li {
+    font-size: 1rem; /* Smaller text */
+  }
+
+  /* Adjust image card styling */
+  .image-card img {
+    border-radius: 15px; /* Slightly smaller border radius */
+  }
+
+  /* Make the content more compact */
+  .education-card, .image-card {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+/* For very small screens (Mobile Portrait) */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2rem; /* Even smaller title */
+  }
+
+  .card-title {
+    font-size: 1.3rem; /* Smaller card title */
+  }
+
+  .education-details h4 {
+    font-size: 1.4rem;
+  }
+
+  .education-details p, .education-details li {
+    font-size: 0.9rem; /* Further reduce text size */
+  }
+
+  .education-card {
+    padding: 2vh;
+  }
+
+  .image-card img {
+    width: 90%;
   }
 }
