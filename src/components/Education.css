@@ -1,0 +1,110 @@
+/* Styling for the Education Section */
+.education-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  .education-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Education Cards Container */
+  .education-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .education-cards.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Individual Education Card */
+  .education-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .card-subtitle {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .card-content {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card-content li {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 5px;
+  }
+  
+  .card-content li::before {
+    content: "•";
+    color: #007bff;
+    margin-right: 8px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styling for Smaller Screens */
+  @media (max-width: 767px) {
+    .education-cards {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .education-card {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .card-title {
+      font-size: 1.5rem;
+    }
+  
+    .card-subtitle {
+      font-size: 1.1rem;
+    }
+  }
+  
