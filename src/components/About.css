@@ -1,7 +1,7 @@
 /* Video Background */
 .video-background {
   margin: 0!important;
-  opacity: 0.8;
+  opacity: 1;
   position: relative;
   top: 0;
   left: 0;
@@ -40,7 +40,7 @@
 
 /* Section Styling */
 .about-section {
-  margin: 16vh;
+  margin: 15vh;
   border-radius: 17px;
   position: relative; /* New stacking context */
   z-index: 10; /* Content should be above the video and overlay */
@@ -58,7 +58,7 @@
 .about-card {
   font-weight: bolder;
   color: #000000;
-  opacity: 0.65;
+  opacity: 0.8;
   z-index: 20; /* Ensure card appears above the section */
   border: none;
   border-radius: 90px 20px;
