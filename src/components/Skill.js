@@ -77,6 +77,17 @@ const Skill = () => {
             </div>
           </div>
 
+          {/* Skill Card 5 */}
+          <div className="card skill-card">
+            <div className="card-body">
+              <h3 className="card-title">Digital Systems Design</h3>
+              <p className="card-description">
+                In-depth knowledge of digital logic design, including sequential and combinational circuits. Experience with FPGA design using Verilog and VHDL for hardware implementation.
+              </p>
+            </div>
+          </div>
+
+         
         </div>
       </div>
     </section>
