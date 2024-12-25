@@ -37,7 +37,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="projects-section container py-5">
+    <section id="projects" className="projects-section bg-transparent container py-5">
       <header className="text-center mb-5">
         <motion.h1 
           className="display-4 fw-bold"
