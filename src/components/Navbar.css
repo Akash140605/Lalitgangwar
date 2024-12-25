@@ -1,0 +1,44 @@
+/* Customize the font for the brand */
+.brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800!important;
+  }
+  
+  /* Navbar background color with smooth transition */
+  .navbar {
+    background-color: lightcyan;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background-color: rgb(212, 251, 251);
+  }
+  
+  /* Navbar brand styles */
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: darkblue;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffb300;
+  }
+  
+  /* Navbar link styles */
+  .nav-link {
+    padding-left: 20px;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    color: darkblue;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffb300;
+  }
+  
+  /* Ensuring smooth transition for collapsible navbar */
+  .navbar-collapse {
+    transition: transform 0.3s ease;
+  }
+  
