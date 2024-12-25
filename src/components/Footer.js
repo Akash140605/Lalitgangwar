@@ -13,7 +13,7 @@ const Footer = () => {
         
         <div className="footer-links">
           <a
-            href="https://www.linkedin.com/in/akash-gupta-8b3025241/"
+            href="https://www.linkedin.com/in/lalit-gangwar-3a10b322b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"
@@ -21,7 +21,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} className="footer-icon" /> LinkedIn
           </a>
           <a
-            href="https://www.instagram.com/lalit_gangwar_/profilecard/?igsh=MXVxeDZwcnNxMzFvaA=="
+            href="https://www.instagram.com/lalit_gangwar_"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"
