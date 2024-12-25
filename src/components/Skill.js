@@ -77,45 +77,6 @@ const Skill = () => {
             </div>
           </div>
 
-          {/* Skill Card 5 */}
-          <div className="card skill-card">
-            <div className="card-body">
-              <h3 className="card-title">Digital Systems Design</h3>
-              <p className="card-description">
-                In-depth knowledge of digital logic design, including sequential and combinational circuits. Experience with FPGA design using Verilog and VHDL for hardware implementation.
-              </p>
-            </div>
-          </div>
-
-          {/* Skill Card 6 */}
-          <div className="card skill-card">
-            <div className="card-body">
-              <h3 className="card-title">Embedded Systems Design</h3>
-              <p className="card-description">
-                Proficient in designing embedded systems using microcontrollers (e.g., ARM, PIC, AVR) for real-time applications. Hands-on experience in developing embedded software using C and assembly language.
-              </p>
-            </div>
-          </div>
-
-          {/* Skill Card 7 */}
-          <div className="card skill-card">
-            <div className="card-body">
-              <h3 className="card-title">Power Electronics</h3>
-              <p className="card-description">
-                Knowledge of power electronics components and systems, including DC-DC converters, inverters, and motor control. Experience with simulation tools like PSpice and MATLAB for power system design.
-              </p>
-            </div>
-          </div>
-
-          {/* Skill Card 8 */}
-          <div className="card skill-card">
-            <div className="card-body">
-              <h3 className="card-title">Analog Electronics</h3>
-              <p className="card-description">
-                Strong background in analog electronics, including op-amps, filters, amplifiers, and signal processing circuits. Proficient in analyzing and designing analog circuits for various applications.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
