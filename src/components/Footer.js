@@ -21,7 +21,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} className="footer-icon" /> LinkedIn
           </a>
           <a
-            href="https://www.instagram.com/lalit_gangwar_"
+            href="https://www.instagram.com/lalit_gangwar_https://www.instagram.com/lalit_gangwar_____/"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"
