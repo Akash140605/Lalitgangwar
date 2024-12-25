@@ -20,7 +20,7 @@ const Education = () => {
   }, []);
 
   return (
-    <section id="education" className="p-5 education-section">
+    <section id="education" className="p-5 bg-transparent education-section">
       <div className="container">
         <h2 className="section-title">Education</h2>
         <div className={`row align-items-center ${isVisible ? "visible" : ""}`}>
