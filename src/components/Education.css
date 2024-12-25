@@ -26,9 +26,11 @@
 .education-card {
   background: #ffffff;
   border-radius: 15px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 15px rgba(29, 27, 27, 0.1);
+  padding: 9.3vh;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  transform: translateX(100%); /* Start off-screen to the right */
+  animation: slideInRight 8s forwards; /* Slide-in from right */
 }
 
 .education-card:hover {
@@ -57,7 +59,7 @@
   font-size: 1.2rem;
   color: #000000;
   padding-left: 30px;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .education-details ul {
@@ -80,14 +82,42 @@
 }
 
 /* Image Card */
+.image-card {
+  transform: translateX(-100%); /* Start off-screen to the left */
+  animation: slideInLeft 6s forwards; /* Slide-in from left */
+}
+
 .image-card img {
-  
   width: 100%;
   height: auto;
   border-radius: 25px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Keyframe Animations */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the right */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Styling */
 @media (max-width: 767px) {
   .education-card, .image-card {
     margin-bottom: 20px;
