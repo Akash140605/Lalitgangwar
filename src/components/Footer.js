@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css"; // Import CSS for styling
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'; 
 
 const Footer = () => {
   return (
@@ -8,6 +10,7 @@ const Footer = () => {
         <div className="footer-info">
           <p>Contact: (+91) 7351363836 | <a href="mailto:lalitgangwar04@gmail.com">lalitgangwar04@gmail.com</a></p>
         </div>
+        
         <div className="footer-links">
           <a
             href="https://www.linkedin.com/in/akash-gupta-8b3025241/"
@@ -15,7 +18,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            LinkedIn
+            <FontAwesomeIcon icon={faLinkedin} className="footer-icon" /> LinkedIn
           </a>
           <a
             href="https://www.instagram.com/lalit_gangwar_/profilecard/?igsh=MXVxeDZwcnNxMzFvaA=="
@@ -23,7 +26,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            Instagram
+            <FontAwesomeIcon icon={faInstagram} className="footer-icon" /> Instagram
           </a>
           <a
             href="https://x.com/Lalitgangwar012?t=CM5CvYQXCmam7QhRU9j7_Q&s=09"
@@ -31,9 +34,10 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            Twitter
+            <FontAwesomeIcon icon={faTwitter} className="footer-icon" /> Twitter
           </a>
         </div>
+
         <div className="footer-credits">
           <p>
             Developed By{" "}
@@ -48,6 +52,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
+
       <div className="footer-animation">
         <div className="animation-layer"></div>
       </div>
