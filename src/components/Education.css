@@ -15,9 +15,9 @@
 
 .section-title {
   font-family: 'Roboto', 'Times New Roman', Times, serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  color: #000000;
+  color: #ffffff!important;
   margin-bottom: 30px;
   text-align: center;
 }
