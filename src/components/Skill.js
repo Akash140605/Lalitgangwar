@@ -33,7 +33,7 @@ const Skill = () => {
         </video>
       </div>
       <div className="container">
-        <h2 className="section-title">Skills</h2>
+        <h1 className="section-title  text-light ">Skills</h1>
         <div className={`skill-cards ${isVisible ? "visible" : ""}`}>
           {/* Skill Card 1 */}
           <div className="card skill-card">
