@@ -51,15 +51,13 @@ const About = () => {
               <div className="card-body">
                 <h2 className="card-title">About Me</h2>
                 <p className="card-text text-justify">
-                  My goal is to become associated with a company where I can
-                  utilize my skills and gain further experience while enhancing
-                  the company’s productivity and reputation.
-                </p>
-                <p className="card-text">
-                  I am passionate about software development and enjoy solving
-                  real-world problems through technology. I thrive in collaborative
-                  environments and am always eager to learn new tools and techniques.
-                </p>
+                I am a final-year student pursuing Electronics and Communication Engineering (ECE), with a strong foundation in core subjects such as Digital Signal Processing, Embedded Systems, Microprocessors and Microcontrollers, Communication Systems, and VLSI Design. I have hands-on experience with tools and technologies like MATLAB, Verilog, PCB design, and IoT systems.    </p>
+
+                <p className="card-text text-justify">I am passionate about applying my technical skills to solve real-world problems, particularly in areas like wireless communication, automation, and electronics design. My academic and practical experiences have equipped me with analytical thinking, problem-solving skills, and a collaborative approach to projects.</p>
+
+                <p className="card-text text-justify">In addition to my technical expertise, I have a profound interest in politics, exploring the role of technology in governance and societal development. I aspire to grow professionally, leveraging my technical and interpersonal skills to contribute meaningfully to the industry.</p>
+            
+               
               </div>
             </div>
           </div>
