@@ -1,4 +1,7 @@
 /* Styling for the Skill Section */
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
 .skill-section {
     background-color: #f8f9fa;
     padding: 60px 0;
@@ -14,7 +17,7 @@
   .section-title {
     font-size: 2.5rem;
     font-weight: 600;
-    color: #333;
+    color: #000000;
     margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
   }
@@ -56,16 +59,18 @@
   }
   
   .card-title {
+    font-family: 'Times New Roman', Times, serif!important;
+    
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: darkblue!important;
     margin-bottom: 15px;
   }
   
   .card-description {
     font-size: 1.1rem;
     color: #555;
-    line-height: 1.6;
+    line-height: 1.7;
     margin-bottom: 20px;
   }
   
@@ -126,12 +131,12 @@
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #333;
+    color: #ffb2b2;
   }
   
   .card-description {
     font-size: 1rem;
-    color: #555;
+    color: #000000;
     line-height: 1.6;
   }
   
