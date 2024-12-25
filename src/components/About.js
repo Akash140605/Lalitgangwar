@@ -88,13 +88,13 @@ const About = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:youremail@example.com" className="d-flex align-items-center">
+                  <a href="lalitgangwar04@gmail.com" className="d-flex align-items-center">
                     <FontAwesomeIcon icon={faEnvelope} size="lg" className="mr-3" />
                     Email
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+1234567890" className="d-flex align-items-center">
+                  <a href="tel:91 73513 63836" className="d-flex align-items-center">
                     <FontAwesomeIcon icon={faPhone} size="lg" className="mr-3" />
                     Contact Number
                   </a>
