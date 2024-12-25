@@ -27,7 +27,7 @@ const Navbars = () => {
             <Nav.Link href="#education" className="nav-item" onClick={handleLinkClick}>
               Education
             </Nav.Link>
-            <Nav.Link href="#skills" className="nav-item" onClick={handleLinkClick}>
+            <Nav.Link href="#skill" className="nav-item" onClick={handleLinkClick}>
               Skills
             </Nav.Link>
             <Nav.Link href="#projects" className="nav-item" onClick={handleLinkClick}>
