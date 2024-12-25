@@ -10,7 +10,7 @@
 }
 
 .subtitle {
-  color: #555;
+  color: #ffffff;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -24,15 +24,15 @@
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
-  color: #333;
+  color: #040404;
   margin-bottom: 10px;
 }
 
 .project-description {
   font-size: 1.1rem;
-  color: #555;
+  color: #000000;
   line-height: 1.6;
 }
 
