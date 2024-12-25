@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Skill.css"; // Assuming you have a separate CSS file for skills
 import vi from '../img/vi.mp4';
+/* Slick Carousel Styles */
+
 const Skill = () => {
   const [isVisible, setIsVisible] = useState(false);
 
