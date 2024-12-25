@@ -16,16 +16,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* Navbar */}
-      <Navbar/>
-
-      {/* Page Content */}
-      <Container fluid>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
+     
+   
+                <Navbar />
+    
           <section id="about">
             <About />
           </section>
@@ -41,9 +35,7 @@ function App() {
           <section id="experience">
             <Experience />
           </section>
-        </motion.div>
-      </Container>
-
+    
       {/* Footer */}
       <Footer />
     </>
