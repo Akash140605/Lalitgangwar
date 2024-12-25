@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Skill.css"; // Assuming you have a separate CSS file for skills
-
+import vi from '../img/vi.mp4';
 const Skill = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -20,7 +20,18 @@ const Skill = () => {
   }, []);
 
   return (
-    <section id="Skill" className="p-5 skill-section">
+    <section id="Skill" className="p-5 bg-transparent skill-section">
+       <div className="video-background">
+        <video
+          autoPlay
+          loop
+          muted
+          className="background-video"
+        >
+          <source src={vi} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
       <div className="container">
         <h2 className="section-title">Skills</h2>
         <div className={`skill-cards ${isVisible ? "visible" : ""}`}>
