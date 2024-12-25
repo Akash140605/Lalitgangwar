@@ -55,25 +55,26 @@
 .about-card {
   font-weight: bolder;
   color: #000000;
-  opacity: 0.7;
+  opacity: 0.65;
   z-index: 20; /* Ensure card appears above the section */
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 90px 20px;
+  box-shadow: 0 15px 30px rgba(151, 44, 44, 0.1);
   transition: transform 0.5s ease, box-shadow 0.3s ease;
   background-color: #fff;
   padding: 20px;
-  transform-style: preserve-3d;
+  transform: translateY(-10px) rotateY(10deg) rotateX(10deg);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
   perspective: 1000px;
 }
 
 .about-card:hover {
-  transform: translateY(-10px) rotateY(10deg) rotateX(10deg);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+ opacity: 0.9;
 }
 
 /* Profile Image Card */
 .about-image-wrapper {
+  
   position: relative; /* Ensures that the image is positioned correctly */
   z-index: 5; /* Ensure the image is above the video and overlay */
   transform: translateX(-50px);
@@ -82,12 +83,14 @@
 }
 
 .about-image-wrapper.visible {
+ 
   z-index: 10; /* Ensure image is above other elements */
   transform: translateX(0);
   opacity: 1;
 }
 
 .about-image {
+  
   margin-top: 8vh;
   width: 100%;
   max-width: 250px;
